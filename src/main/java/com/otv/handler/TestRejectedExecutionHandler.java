@@ -13,6 +13,8 @@ import org.apache.log4j.Logger;
  */
 public class TestRejectedExecutionHandler implements RejectedExecutionHandler {
 	
+	
+	
 	private static Logger log = Logger.getLogger(TestRejectedExecutionHandler.class);
 	
 	public void rejectedExecution(Runnable runnable, ThreadPoolExecutor executor) {
